@@ -13,4 +13,4 @@ Proof of concept code handling calling the TourCMS API with a properly formed si
 
 ### SSL Warnings
 
-Trying installing [Mozilla::CA](http://search.cpan.org/~abh/Mozilla-CA-20160104/lib/Mozilla/CA.pm) to get the latest Mozilla Certificate Authority bundle, LWP will use it automatically.
+If your Perl environment is not correctly verifying SSL certificates install [Mozilla::CA](http://search.cpan.org/~abh/Mozilla-CA-20160104/lib/Mozilla/CA.pm) to get the latest Mozilla Certificate Authority bundle, LWP will use it automatically.
