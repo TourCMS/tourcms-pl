@@ -8,3 +8,9 @@ Proof of concept code handling calling the TourCMS API with a properly formed si
 2. Edit `main.pl`, entering your TourCMS API credentials into the `main` sub
 3. Run `perl main.pl`
 4. The sample code will call the Search API, dump the response and die
+
+## Troubleshooting
+
+### SSL Warnings
+
+Trying installing [Mozilla::CA](http://search.cpan.org/~abh/Mozilla-CA-20160104/lib/Mozilla/CA.pm) to get the latest Mozilla Certificate Authority bundle, LWP will use it automatically.
